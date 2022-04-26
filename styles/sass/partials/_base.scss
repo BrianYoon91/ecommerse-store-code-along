@@ -67,6 +67,9 @@ button {
 }
     
 a {
+
+    display: inline-block;
+    
     &.button {
             color: $primary;
             background-color: transparent;
@@ -87,4 +90,10 @@ a {
                 color: $solidWhite;
             }
     }
+}
+
+img {
+    
+    max-width: 100%;
+    display: block;
 }
